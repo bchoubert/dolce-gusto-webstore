@@ -1,0 +1,93 @@
+@font-face {
+	font-family: "ingredient-font";
+	src: url("ingredient-font.eot?#iefix") format("embedded-opentype"),
+url("ingredient-font.woff") format("woff"),
+url("ingredient-font.woff2") format("woff2"),
+url("ingredient-font.ttf") format("truetype"),
+url("ingredient-font.svg#ingredient-font") format("svg");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: ingredient-font !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-anchovy:before {
+	content: "\f101";
+}
+.icon-artichoke:before {
+	content: "\f102";
+}
+.icon-bacon:before {
+	content: "\f103";
+}
+.icon-chicken:before {
+	content: "\f104";
+}
+.icon-eggplant:before {
+	content: "\f105";
+}
+.icon-garlic:before {
+	content: "\f106";
+}
+.icon-ham:before {
+	content: "\f107";
+}
+.icon-hamburger:before {
+	content: "\f108";
+}
+.icon-mushrooms:before {
+	content: "\f109";
+}
+.icon-olives:before {
+	content: "\f10a";
+}
+.icon-onion:before {
+	content: "\f10b";
+}
+.icon-pasta:before {
+	content: "\f10c";
+}
+.icon-pepper:before {
+	content: "\f10d";
+}
+.icon-pepperoni:before {
+	content: "\f10e";
+}
+.icon-pineapple:before {
+	content: "\f10f";
+}
+.icon-pizza:before {
+	content: "\f110";
+}
+.icon-plate:before {
+	content: "\f111";
+}
+.icon-salad:before {
+	content: "\f112";
+}
+.icon-sausage:before {
+	content: "\f113";
+}
+.icon-sicilian_pizza:before {
+	content: "\f114";
+}
+.icon-spinach:before {
+	content: "\f115";
+}
+.icon-sub:before {
+	content: "\f116";
+}
+.icon-tomato:before {
+	content: "\f117";
+}
+.icon-zucchini:before {
+	content: "\f118";
+}
+

@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "ingredient-font";
+	src: url("ingredient-font.eot?#iefix") format("embedded-opentype"),
+url("ingredient-font.woff") format("woff"),
+url("ingredient-font.woff2") format("woff2"),
+url("ingredient-font.ttf") format("truetype"),
+url("ingredient-font.svg#ingredient-font") format("svg");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: ingredient-font !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-1:before {
+	content: "\f101";
+}
+.icon-2:before {
+	content: "\f102";
+}
+.icon-3:before {
+	content: "\f103";
+}
+.icon-4:before {
+	content: "\f104";
+}
+.icon-5:before {
+	content: "\f105";
+}
+.icon-6:before {
+	content: "\f106";
+}
+.icon-7:before {
+	content: "\f107";
+}
+.icon-8:before {
+	content: "\f108";
+}
+.icon-9:before {
+	content: "\f109";
+}
+.icon-bean:before {
+	content: "\f10a";
+}
+.icon-pod:before {
+	content: "\f10b";
+}
+

@@ -1,0 +1,2168 @@
+[
+  {
+    "model": "webstore.category",
+    "pk": 1,
+    "fields": {
+      "label": "Espresso Coffees",
+      "isDrinkCategory": true
+    }
+  },
+  {
+    "model": "webstore.category",
+    "pk": 2,
+    "fields": {
+      "label": "Large Coffees",
+      "isDrinkCategory": true
+    }
+  },
+  {
+    "model": "webstore.category",
+    "pk": 3,
+    "fields": {
+      "label": "Bio Coffees",
+      "isDrinkCategory": true
+    }
+  },
+  {
+    "model": "webstore.category",
+    "pk": 4,
+    "fields": {
+      "label": "Capuccino & Latte",
+      "isDrinkCategory": true
+    }
+  },
+  {
+    "model": "webstore.category",
+    "pk": 5,
+    "fields": {
+      "label": "Chocolate",
+      "isDrinkCategory": true
+    }
+  },
+  {
+    "model": "webstore.category",
+    "pk": 6,
+    "fields": {
+      "label": "Starbucks",
+      "isDrinkCategory": true
+    }
+  },
+  {
+    "model": "webstore.category",
+    "pk": 7,
+    "fields": {
+      "label": "Tea",
+      "isDrinkCategory": true
+    }
+  },
+  {
+    "model": "webstore.category",
+    "pk": 8,
+    "fields": {
+      "label": "Cold Drinks",
+      "isDrinkCategory": true
+    }
+  },
+  {
+    "model": "webstore.category",
+    "pk": 9,
+    "fields": {
+      "label": "Coffee Machines",
+      "isDrinkCategory": false
+    }
+  },
+
+  {
+    "model": "webstore.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Espresso Barista",
+      "description": "One of our most intense coffee pod drinks, our Ristretto Barista variety definitely one for those who love a full-bodied coffee! Short, dark and aromatic, Ristretto Barista is a deliciously strong espresso that’s bursting with a bold, rich taste. Well-balanced, yet robust, this espresso capsule drink is wonderful at any time of the day. Whether you love a morning espresso or enjoy savouring a coffee after dinner, Ristretto Barista is made to be enjoyed, whatever your style. But these espresso pod coffees don’t just taste great, they look great too. Because of the maximum 15-bar pump pressure in our stylishly designed coffee machines, your espresso is topped with a velvety layer of crema, making it truly look (and taste!) like a work of art. With all the style of a coffee shop drink and equally as delicious, Ristretto Barista is super simple to make at home. And what better way of making the most of your creation than by presenting it in one of our sleek espresso cups? With the luxury of barista style coffee any time you want, Ristretto Barista is definitely one to add to your coffee capsule collection. And if you love the intense taste of our Barista coffee, you’ll love our Espresso Intenso pod coffee too.",
+      "shortDescription": "Dark and aromatic, our Ristretto Barista packs a real punch!",
+      "color": "#7E7E7E",
+      "isLightColor": false,
+      "indicator": 1
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "Espresso Ardenza",
+      "description": "Dark, intense and with wonderful aromas of hazelnut and liquorice, Ristretto Ardenza takes the classic espresso to another level. A little shorter, Ristretto is made by passing less water through the coffee. What this means is that you get a short, robust espresso that has a smoky aroma with a deliciously peppery aftertaste. Our Ristretto Ardenza pod coffee is our most intense coffee capsule drink yet, so if you love the full-bodied taste of a bold espresso, this one is definitely worth a try. Also known as ‘corto’, Italian for ‘short’, Ristretto Ardenza is definitely proof that good things come in small packages. As well as a wonderfully woody character with a bold, hazlenutty taste, these punchy espressos are also topped with a silky layer of crema thanks to the maximum 15-bar pump pressure in our stylish machines. The colour of caramel, the delicious crema is frothy, rich and helps give your espresso pod coffee a high quality taste, just as you would expect from a coffee shop. An online exclusive, Ristretto Ardenza is an espresso pod coffee not to be missed. Elegant and robust, we think that they’re best served in an espresso cup that presents the irresistible layers of your masterpiece at their best. And if you’re looking for a delicious ristretto espresso, but with a slightly less intense aroma, our Ristretto coffee capsule drinks might be just what you’re after.",
+      "shortDescription": "Shorter than a standard espresso, yet bold and full-flavoured. Most intense!",
+      "color": "#263C92",
+      "isLightColor": false,
+      "indicator": 1
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "name": "Ristretto",
+      "description": "A little shot of coffee heaven, Ristretto is definitely not your average espresso. Bold and intense, this short espresso pod coffee has a delicious lingering taste, with a roasted, woody aroma. A little smaller than an espresso, Ristretto is also known as ‘corto’, the Italian way of saying ‘short’. Compact, yet full-bodied with hints of black treacle, Ristretto is made by passing less water through the coffee, resulting in an intense shot of espresso that’s delicious morning, noon and night.One of our stronger coffee capsule varieties, Ristretto is a brilliant choice for those who love to savour an espresso, or coffee lovers who want to try something new and exciting. Making a delicious Ristretto couldn’t be simpler using our stylish coffee machines. With the rich coffee blend in our Ristretto espresso pods, and the maximum 15-bar pump pressure in our machines, it’s easy to make a coffee shop quality drink at home. Complete with a silky layer of crema, these fabulous capsules make great tasting espressos from the comfort of your kitchen. We think your Ristretto is best served in an elegant espresso cup that shows off your masterpiece at its very best (why not give one of our espresso cups a try!). And if you love the toasted taste of our Ristretto drinks, you’ll love our Ristretto Ardenza pods, our most intense pod coffee variety yet!",
+      "shortDescription": "Shorter than a standard espresso, yet bold and full-flavoured.",
+      "color": "#087163",
+      "isLightColor": false,
+      "indicator": 1
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "name": "Espresso",
+      "description": "Espresso is our most classic coffee pod. The kind of coffee that’s always pleasing to the palate, this delicious espresso pod drink is ideal for any time of the day. Whether you serve it up as a brilliant breakfast accompaniment, or after dinner with friends, our Espresso pod coffee is a timeless drink that has a soft, nutty lingering bitterness. An invigorating lighter roast, with sweet, fruity notes and a velvety crema finish, Espresso offers the sophistication of barista style coffee, whilst keeping things simple. The maximum 15-bar pump pressure in each of our stylish coffee machines means that it’s easy to make coffee shop quality drinks at home. With all of the style of a barista made drink, and the delicious taste of our zingy coffee blend, this clever espresso capsule drink is made to be enjoyed. We recommend serving your Espresso in an elegant cup that makes the most of your coffee creation. Whether you want to show off the beautifully light layer of velvety crema in a glass cup, or mix it up with one of our funky, espresso-sized porcelain cups, this is a pod coffee masterpiece made to be celebrated. And if you’re looking for an espresso with all of the delicious taste, but without all of the caffeine, why not try our Espresso Decaf variety?",
+      "shortDescription": "Intensely aromatic, full-bodied and topped with a velvety crema finish.",
+      "color": "#C5006E",
+      "isLightColor": false,
+      "indicator": 2
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "name": "Espresso",
+      "description": "If you love after dinner conversation, you’ll especially love our decaf espresso pod. One of our mid-intensity espresso capsule coffees, Espresso Decaf is not just brilliant to savour after dinner with friends, but a delicious drink at any time of the day. With a lovely rich roasted aroma, with hints of caramel and treacle, Espresso Decaf is complex yet smooth, with a juicy velvety finish. Thanks to the maximum 15 bar pump pressure in our very stylish coffee machines, creating a coffee shop quality espresso at home is quick, simple and extra delicious. And because our machines are designed to make barista style drinks, your Espresso Decaf is not only high on aroma and taste, but topped with a velvety layer of crema too. The colour of caramel, the silky layer of crema makes our decaf espresso capsule drinks even more irresistible, right from the very first sip. We recommend serving your coffee masterpiece in one of our espresso cups, a wonderful way of presenting your creation at it’s best. Exclusively online, you can’t get our Espresso Decaf pod coffees anywhere else! So, whether you want to enjoy the taste of these delightful espressos to unwind after a long day or with friends, this is an online exclusive not to be missed. If you’ve tried our Espresso Decaf variety, and want to mix up your decaffeinated coffee pod collection, why not give our Espresso Macchiato Decaf capsule a go?",
+      "shortDescription": "High on aroma and taste without the caffeine kick.",
+      "type": "Decaffeinato",
+      "typeColor": "#0D95BD",
+      "color": "#C5006E",
+      "isLightColor": false,
+      "indicator": 2
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "name": "Espresso Intenso",
+      "description": "If you love an after dinner espresso, you’ll love Espresso Intenso. One of our medium roast coffee pod drinks, Intenso has a deliciously nutty aroma that adds something extra special to your espresso cup. With a warm, spicy intensity and hints of summery red fruits, our Espresso Intenso pod coffee has a gentle complexity that tastes great at any time of the day. Thanks to the maximum 15-bar pump pressure in our stylish coffee machines, these pods not only make a tasty espresso, but also top your drink with a velvety layer of crema. Honey-coloured and delicious, the silky crema helps your Intenso espresso pod coffee taste great from the very first sip. With wonderful aromas of almonds and cherries, Espresso Intenso is brilliant for savouring after dinner with friends or simply enjoyed as a way to unwind. As well as making coffee shop quality espressos straight out of your kitchen, our Intenso pod drinks look great too. We think these sophisticated coffee pod beverages are best served in an elegant espresso cup that shows off your coffee creation at its best. Why not try out our glass espresso cup set, which presents the lovely layer of crema beautifully, or our funky cup and saucer sets, which make a unique style statement for espresso lovers. Want to add variety to your espresso collection? Check out our wonderful range of espresso pod drinks, each delicious and each bringing something different to the table.",
+      "shortDescription": "High on aroma and flavour with a velvety crema layer.",
+      "color": "#242021",
+      "isLightColor": false,
+      "indicator": 2
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 7,
+    "fields": {
+      "category": 1,
+      "name": "Espresso",
+      "description": "This clever little coffee pod is something special. Whether you’re an espress lover or want to try something smooth, dreamy and intense, we think you’ll love our Espresso Caramel pod coffee. With a delicious, velvety caramel note, these pod coffees are absolutely fantastic at any time of the day. So, whether you want a warm, coffee to enjoy first thing, or an uplifting espresso to be savoured after a relaxed dinner with friends, Espresso Caramel is brilliant for any occasion – from the everyday to the extra special.  Of course, no espresso would be complete without a velvety layer of crema and our super chic machines help to create just that. With a maximum 15-bar pump pressure, our machines help you to make drinks that not only look the part, but also have that all-important coffee shop quality taste. Serve your Espresso Caramel in a glass that shows off your coffee creation, and garnish with good conversation. Only available online, these delicious coffee pod drinks are an exclusive that are not to be missed. And if you like the enticing nutty toffee aroma and the smooth caramel finish of Espresso Caramel, you might enjoy our Caramel Latte Macchiato too!",
+      "shortDescription": "The delicious intensity of an espresso with just a hint of rich caramel flavour.",
+      "type": "Caramel",
+      "color": "#AE732F",
+      "isLightColor": false,
+      "indicator": 2
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "name": "Espresso Generoso",
+      "description": "NESCAFÉ® Dolce Gusto® Espresso Generoso is a unique blend of 5 origins from 3 different continents. This tasty and generous espresso is distinguished by its rich and round aromas with both woody notes and cassis, reminiscent of licorice. Intensity 7/11",
+      "shortDescription": "Enjoy a rounded and generous cup of coffee with rich and pronounced notes.",
+      "color": "#D22924",
+      "isLightColor": false,
+      "indicator": 2
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "name": "Cortado",
+      "description": "Warm and rich, our Espresso Macchiato coffee pod beverages are absolutely delicious. The Spanish call them ‘Cortado’. We call them yummy. These clever coffee pods contain our rich coffee blend and milk, all in one capsule. Brilliant for enjoying on the go or savouring at any time of day, we think that these espresso pod drinks are a wonderful addition to any coffee collection. Full-bodied with a robust aroma, our Espresso Macchiato coffee pod drinks retain the yummy intensity of a classic espresso, while milk adds something extra special. Topped with velvety crema, a must for any espresso, this coffee tastes fantastic from the very first sip. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® pod machines and allows you to prepare 16 cups of Espresso Macchiato.",
+      "shortDescription": "Our Espresso Macchiato coffee pods contain a rich coffee blend with a touch of milk, all in one coffee pod.",
+      "color": "#C39F7F",
+      "isLightColor": true,
+      "indicator": 3
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 10,
+    "fields": {
+      "category": 1,
+      "name": "Cortado",
+      "description": "With our Espresso Macchiato Decaf, you can fill your espresso cup with decaf deliciousness. With all of the taste, but without all of the caffeine, this coffee pod drink is not just brilliant for enjoying in the morning, but lovely at any time of the day. Rich and intensely aromatic, our decaf Espresso Macchiato coffee pod beverages are made with decaffeinated coffee and milk. Called ‘Cortado’ by the Spanish, this pod is definitely one for espresso lovers. As well as tasting fantastic, Espresso Macchiato Decaf looks great too. From the gorgeous honey-coloured liquid to the silky layer of crema, these espresso coffee pod beverages are truly works of art. We think they’re best served in an espresso glass that shows off your coffee creation at its best, and made even better when paired with good conversation. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® pod machines and allows you to prepare 16 cups of Espresso Macchiato Decaf.",
+      "shortDescription": "Our Espresso Macchiato Decaf coffee pods contain a rich decaffeinated espresso blend with a touch of milk, all in one coffee pod.",
+      "color": "#C39F7F",
+      "isLightColor": true,
+      "type": "Decaffeinato",
+      "typeColor": "#D6222B",
+      "indicator": 3
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "name": "Espresso Intenso",
+      "description": "Espresso Intenso Decaffeinato is an intensely roasted blend uncompromisingly decaffeinated to preserve its strong personality and unleash its powerful nature. Experiment this new decaffeinated creation, with its toasted and spicy notes, roasted aromas and persistent aftertaste. Enjoy its full body and dense velvety crema and discover a new decaffeinated pleasure.",
+      "shortDescription": "From smooth to intense, each cup is a masterpiece. Espresso Intenso Decaffeinato is an intensely roasted blend uncompromisingly decaffeinated to preserve its strong personality and unleash its powerful natur",
+      "type": "Decaffeinato",
+      "color": "#242021",
+      "isLightColor": false,
+      "typeColor": "#D6222B",
+      "indicator": 2
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 12,
+    "fields": {
+      "category": 2,
+      "name": "Grande Morning",
+      "description": "Discover NESCAFÉ® Dolce Gusto® Americano Bold Morning, a powerful and aromatic 100% Arabica coffee, designed to fill morning mugs. Enjoy intense aromas, with hints of lively fruity winey notes, balanced with subtle sweet cereal-chocolatey notes, for a strong but round and pleasant coffee until the very last sip. With milk, its strength is tempered but it keeps its full coffee-ness. Intensity 4 out of 11. The box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® coffee pod machines for you to prepare 16 cups of Grande Morning (Formerly called Preludio Intenso).",
+      "shortDescription": "Transform your weekday mornings with NESCAFÉ® Dolce Gusto® Grande Morning, a strong and lively 100% Arabica coffee, designed to fill XL morning mugs.",
+      "color": "#DE2F3C",
+      "isLightColor": false,
+      "indicator": 7
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 13,
+    "fields": {
+      "category": 2,
+      "name": "Grande Intenso",
+      "description": "Transform your mornings NESCAFÉ® Dolce Gusto® Grande Intenso, an intense 100% Arabica coffee A long intense cup (at 230ml) with roasted coffee aroma, fruity notes reminiscent of black cherry, a full body and a fine crema. Intensity of 9 out of 11. The box contains 16 capsules designed for NESCAFÉ® Dolce Gusto® coffee pod machines for you to prepare 16 mugs of Grande Intenso (Formerly called Grande Intenso)",
+      "shortDescription": "Transform your mornings with NESCAFÉ® Dolce Gusto® Grande Intenso, an intense 100% Arabica coffee delicious with or without milk.",
+      "color": "#BB502B",
+      "isLightColor": false,
+      "indicator": 6
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 14,
+    "fields": {
+      "category": 2,
+      "name": "Cafe au Lait",
+      "description": "Simple idea, fancy French name. Our delicious NESCAFÉ® Dolce Gusto® Café au Lait coffee pods are one of our most classic drinks as it boasts an iconic milky taste and is brilliant for any occasion - from the everyday to the extra special. We think it’s especially yummy in the morning as a breakfast accompaniment, but these milky pod coffees are fantastic at any time of the day. So, whether you love to savour your Café au Lait as an everyday treat to yourself, or pop in a pod to enjoy with friends, we think you’ll love our NESCAFÉ® Dolce Gusto® Café au Lait pods.",
+      "shortDescription": "Discover the deliciously milky taste of our NESCAFÉ® Dolce Gusto® Café au Lait, the perfect coffee pod for all occasions.",
+      "color": "#7F5A29",
+      "isLightColor": false,
+      "indicator": 6
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 15,
+    "fields": {
+      "category": 2,
+      "name": "Cafe au Lait",
+      "description": "If you want to enjoy a deliciously milky coffee without all the caffeine, discover our NESCAFÉ® Dolce Gusto® Café au Lait decaf coffee pods. Whether it’s late in the evening or you just fancy a decaffeinated coffee, Café au Lait Decaffeinated will delight you with its milky coffee aroma topped with silky foam, all in one clever capsule.",
+      "shortDescription": "Discover our classic NESCAFÉ® Dolce Gusto® Café au Lait decaf, same wonderfully creamy taste, now available without all the caffeine. Simple and always delicious.",
+      "color": "#7F5A29",
+      "type": "Decaffeinato",
+      "typeColor": "#D6222B",
+      "isLightColor": false,
+      "indicator": 6
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 16,
+    "fields": {
+      "category": 2,
+      "name": "Americano",
+      "description": "Transform your mornings with NESCAFÉ® Dolce Gusto® Americano, a smooth, 100% Arabica coffee This long cup (at 230ml) is an elegant smooth coffee with fruity and floral notes, and a fine crema. Savour the nuanced notes of lychee and rose, in this lightly roasted body, mug-sized coffee. Intensity of 4 out of 11. The box contains 16 coffee pods designed for your NESCAFÉ® Dolce Gusto® coffee pod machines, for you to prepare 16 mugs of Americano.",
+      "shortDescription": "Transform your mornings with NESCAFÉ® Dolce Gusto® Americano, a smooth, 100% Arabica coffee in a large mug.",
+      "color": "#A32346",
+      "isLightColor": false,
+      "indicator": 7
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 17,
+    "fields": {
+      "category": 2,
+      "name": "Lungo",
+      "description": "The classic Lungo coffee is, in Italian, a ‘long coffee’. Like the iconic espresso, water is passed through our rich roasted and ground coffee blend, but instead of making a shot, enough water is used to fill a normal coffee cup. What you create is a smooth, enticingly dark coffee that’s just right for every day, easy drinking. The Lungo coffee is a drink you can take your time over and enjoy at breakfast and beyond. Not too strong but with just enough deliciousness in its blend to tickle your taste buds in the morning, the Lungo coffee pod drink is the ideal choice for the coffee enthusiast who likes things simple but won’t compromise on well-rounded flavour. This is what gives it such wonderfully wide appeal and makes it the ideal choice for your coffee pod collection. Intensity 6 out of 11. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® coffee pod machines, for allowing you to prepare 16 cups of Lungo. If you want to take coffee mornings to the next level, our Iconic Porcelain Lungo Cups are carefully designed for the task of presenting your Lungo coffee, with a size and shape that complements the unmistakable design of your machine.",
+      "shortDescription": "A 'stretched' espresso; the Lungo coffee is a long cup of smooth, intense coffee. Its flexibility allows you to enjoy your favourite with or without milk.",
+      "color": "#DF4C2A",
+      "isLightColor": false,
+      "indicator": 4
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 18,
+    "fields": {
+      "category": 2,
+      "name": "Lungo",
+      "description": "Enjoying a great tasting coffee doesn’t mean you need to have all of the caffeine too. Our Lungo Decaf is just as smooth and tasty as the original, but it is made with a decaffeinated blend of coffee. So whether it’s late in the evening or you just don’t fancy the caffeine, you can enjoy our popular Lungo without putting taste to one side. This literal ‘long espresso’, a shot of decaffeinated espresso made with a little more hot water, is a coffee you can take your time over at breakfast, lunch and beyond. With an enticing aroma and that traditional layer of crema on top, the drink packed into these coffee pods isn’t one to miss. Simple but confident, the Lungo Decaf is best enjoyed any way you like it, with or without milk. However you make it your own, it’s a great little number for any time of the day, whether you’re kicking back by yourself or enjoying with friends. Intensity 6 out of 11. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® coffee pod machines, for allowing you to prepare 16 cups of Lungo Decaf. If you want to dress your Lungo Decaf coffee up a little, enjoy in our Iconic Porcelain Lungo Cups, the stylish and unique choice that complements the modern design of your NESCAFÉ® Dolce Gusto® machine.",
+      "shortDescription": "The Lungo Decaf is a 'stretched' espresso; a long cup of smooth intense coffee, decaffeinated. Enjoy with or without milk.",
+      "color": "#DF4C2A",
+      "isLightColor": false,
+      "type": "Decaffeinato",
+      "typeColor": "#0D95BD",
+      "indicator": 4
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 19,
+    "fields": {
+      "category": 2,
+      "name": "Lungo Intenso",
+      "description": "When it’s time for a stronger tasting coffee let the Lungo Intenso take you away. This ‘long coffee’, an espresso made with a little more hot water, is created with an intense coffee pod that has more bite than the regular Lungo blend - but all of the classic taste. With a classic layer of crema swirled over its surface, the Lungo Intenso marries a delicate aroma with a full-bodied taste experience. The ideal companion to breakfast as well as a tasty drink throughout the day, this is way more than you’ll find in an instant coffee. Its deep colour, enticing aroma and lingering aftertaste are brought out expertly by your NESCAFÉ® Dolce Gusto® machine, bringing you an unmissable coffee-drinking experience at home time and time again. A great option to have on hand for visitors who like their coffee strong, our Lungo Intenso coffee pod drinks are an indispensable part of a varied coffee pod selection. Intensity 9 out of 11. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® coffee pod machines, for allowing you to prepare 16 cups of Lungo Intenso.",
+      "shortDescription": "The Lungo Intenso is a more intense version of the 'stretched' espresso, with more bite than the regular blend, but all of the classic taste.",
+      "color": "#803C25",
+      "indicator": 4
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 20,
+    "fields": {
+      "category": 2,
+      "name": "Grande",
+      "description": "With a dash of extra intensity, the Grande coffee is the next step up in depth from the classic Americano. Smooth and undeniably satisfying, our Grande coffee pod drinks are made with medium-roast 100% Arabica coffee beans, just the right thing for that first coffee of the morning - and everyday moments alike. Intensity 5 out of 11. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® coffee pod machines, allowing you to prepare 16 cups of Grande coffee. A great one to have in your NESCAFÉ® Dolce Gusto® coffee pod collection, the Grande is a must for coffee enthusiasts who value a great tasting, expertly crafted coffee blend. If this is your ideal coffee, we also recommend our Grande Intenso, the Grande with a bit of extra bite! With its aromatic layer of crema, our Grande coffee is a long drink that’s beautiful in its simplicity. Expertly crafted by your stylish NESCAFÉ® Dolce Gusto® coffee pod machine, your Grande can be taken with or without milk, just the way you like it. It’s the flexibility of this coffee that really allows you to make it your own or tailor it for friends and family, showing off your creativity at the same time. Brilliant with breakfast, bold but not too strong, straightforward but certainly not boring, our Grande coffee is just the thing for those lovely long coffee moments at any time.",
+      "shortDescription": "A smooth, velvety, full-bodied, but balanced coffee for any time of day. It’s flexibility means you can enjoy our Grande coffee with or without milk.",
+      "color": "#ECBD0B",
+      "isLightColor": true,
+      "indicator": 7
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 21,
+    "fields": {
+      "category": 2,
+      "name": "Cafe au Lait Intenso",
+      "description": "Discover NESCAFÉ® Dolce Gusto® Café au Lait Intenso, for a bold and creamy coffee break in only one capsule. Enjoy its bold coffee flavour, reminding of freshly roasted beans, expertly tempered by the softness of milk, for a creamy tasting yet, intense coffee experience. Our coffee creators have expertly blended South Asian Robusta with the right hint of whole milk for an intense and velvety coffee, in one convenient capsule. The box contains 16 capsules of NESCAFÉ® Dolce Gusto® Cafe au Lait Intenso, designed for NESCAFÉ ® Dolce Gusto® capsule coffee machines",
+      "shortDescription": "Discover NESCAFÉ® Dolce Gusto® Café au Lait Intenso, for a bold and creamy coffee break in only one capsule.",
+      "color": "#453A1C",
+      "isLightColor": false,
+      "indicator": 6
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 38,
+    "fields": {
+      "category": 2,
+      "name": "Flat White",
+      "description": "Discover our smooth Flat White coffee pods for a creamy-tasting coffee break in the comfort of your own home, and fall for its delicious, velvety notes. Make your mornings more exciting and indulge in the rich, deep espresso with a thick crema, the perfect way to start your day. The box contains 16 Flat White coffee pods, specially designed for use with NESCAFÉ ® Dolce Gusto® coffee pod machines.",
+      "shortDescription": "Discover our smooth Flat White coffee pods for a creamy-tasting coffee break in only one capsule.",
+      "color": "#54B8BA",
+      "isLightColor": false,
+      "indicator": 6
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 22,
+    "fields": {
+      "category": 2,
+      "name": "Ricore",
+      "description": "Discover the delicious unique taste of RICORÉ® LATTE, all the smoothness of a café au lait combined with the sweetness of chicory, with a generous foam. RICORÉ®, full of good humor!",
+      "shortDescription": "Discover the delicious unique taste of RICORÉ® LATTE, all the smoothness of a café au lait combined with the sweetness of chicory, with a generous foam. RICORÉ®, full of good humor!",
+      "color": "#ECCB0A",
+      "isLightColor": true,
+      "type": "Latte",
+      "typeColor": "#712D1A",
+      "indicator": 6
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 23,
+    "fields": {
+      "category": 3,
+      "name": "Grande Mexico",
+      "description": "Start your day with the full-bodied NESCAFÉ® Dolce Gusto® Mexico Chiapas Americano. An organically grown single origin blend with notes of toasted hazelnut and plum that will surprise you in a large mug. With a hint of milk, you can even taste delicious praline notes. Intensity 7 out of 11. The box contains 12 coffee pods of NESCAFÉ® Dolce Gusto® Americano Mexico Chiapas, designed for NESCAFÉ ® Dolce Gusto® coffee pod machines.",
+      "shortDescription": "Discover a full-bodied organic Americano originating from the Mexican Chiapas region. The Mexico Chiapas Americano tenderly blends flavours of hazelnut & plum.",
+      "color": "#018E7D",
+      "isLightColor": false,
+      "indicator": 7
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 24,
+    "fields": {
+      "category": 3,
+      "name": "Lungo Colombia",
+      "description": "You'll love the premium quality of our Colombia Sierra Nevada Lungo coffee pods. This coffee is made with 100% organic single origin Arabica and delicate notes of toasted almond, nutmeg and barley. Discover a refined organic Colombian coffee with a distinct and unique taste. They have an intensity score of 5/11. Each box contains 12 coffee pods and allows you to prepare 12 cups (120ml) of Colombia Sierra Nevada Lungo. If you prefer an intense coffee why not try our NESCAFÉ® Dolce Gusto® Peru Cajamarca Espresso coffee pods? They’re strong and delicious in flavour with hints of liquorice, pink pepper and blackcurrant buds.",
+      "shortDescription": "NESCAFÉ® Dolce Gusto® Colombia Sierra Nevada Lungo coffee pods are refined with 100% organic Arabica, featuring delicious, subtle nutty notes.",
+      "color": "#BF541C",
+      "isLightColor": false,
+      "indicator": 4
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 25,
+    "fields": {
+      "category": 3,
+      "name": "Espresso Peru",
+      "description": "Grown according to Peruvian Minga traditions, NESCAFÉ® Dolce Gusto® Peru Cajamarca Espresso is an intense single origin Arabica coffee. You’ll fall in love with its unique aromatic signature with enveloping aromas of wood, liquorice, subtle pink pepper and blackcurrant bud notes. It has an intensity score of 8/11. Each box contains 12 coffee pods and allows you to prepare 12 espresso cups (50ml) of Honduras Corquin Espresso.",
+      "shortDescription": "NESCAFÉ® Dolce Gusto® Peru Cajamarca Espresso pods are intense and made from 100% organic Arabica with hints of liquorice, pink pepper and blackcurrant bud.",
+      "color": "#87233D",
+      "isLightColor": false,
+      "indicator": 2
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 26,
+    "fields": {
+      "category": 3,
+      "name": "Espresso Honduras",
+      "description": "Discover the smooth NESCAFÉ® Dolce Gusto® Honduras Corquin Espresso. An organically grown single origin Arabica coffee with notes of honey, dark chocolate and malt which promises delicious flavours to satisfy your coffee cravings. It has an intensity score of 6/11. Each box contains 12 coffee pods and allows you to prepare 12 espresso cups (50ml) of Honduras Corquin Espresso.",
+      "shortDescription": "NESCAFÉ® Dolce Gusto® Honduras Corquin Espresso pods are smooth and made with 100% organic Arabica coffee with honey and delicious dark chocolate notes.",
+      "color": "#2D5592",
+      "isLightColor": false,
+      "indicator": 2
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 27,
+    "fields": {
+      "category": 4,
+      "name": "Cappuccino",
+      "description": "Discover NESCAFÉ® Dolce Gusto® Cappuccino, an Italian icon in a 30-pod format. The rich and bold aromas of an intense espresso meet the smooth taste and creamy texture of whole milk froth. Our talented coffee creators have perfected NESCAFÉ® Dolce Gusto® Cappuccino in a two-capsule recipe, so that the Italian-style dark roast Arabica from South America is topped with a creamy and persistent whole milk froth, enhanced with a hint of sugar. First slide the milk (white) capsule into your NESCAFÉ® Dolce Gusto® machine. Then repeat with the coffee (brown) capsule and have your perfect Cappuccino ready right away.",
+      "shortDescription": "Discover NESCAFÉ® Dolce Gusto® Cappuccino, an Italian icon, in a 30-pod format.",
+      "color": "#B5B435",
+      "isLightColor": false,
+      "indicator": 6
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 28,
+    "fields": {
+      "category": 4,
+      "name": "Cappuccino",
+      "description": "Our Skinny Cappuccino coffee pods can be enjoyed just as much as our regular Cappuccino, but this time there’s no added sugar*. Still intense and with that dreamy froth you love, it’s also fat free and contains only 50 calories a cup. You don’t need to go out to enjoy your favourite coffee in a skinny version, as your NESCAFÉ® Dolce Gusto® machine will create a barista-style drink from your Skinny Cappuccino coffee pods, worthy of any coffee shop. Enjoy its smooth, milky texture and great-tasting roasted coffee time and time again, without compromising on the quality you expect. A brilliant coffee for little breaks and to treat yourself at any time of the day, enjoy this one in company or when relaxing solo. Make the most of its light colour and layer of velvet foam by serving in one of our beautifully designed latte glasses for an extra pop of style. A lovely addition to any NESCAFÉ® Dolce Gusto® cappuccino pod collection, this Skinny Cappuccino is a great one to have on hand for those days when you don’t fancy a regular cappuccino. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® pod machines and allows you to prepare 8 cups of Skinny Cappuccino. And if you love our Skinny Cappuccino coffee pods, you might enjoy our Skinny Latte Macchiato variety too.",
+      "shortDescription": "Our Skinny Cappuccino coffee pods are deliciously intense and frothy, with only 50 calories a cup.",
+      "color": "#B5B435",
+      "isLightColor": false,
+      "type": "Skinny / Light",
+      "typeColor": "#BB569A",
+      "indicator": 6
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 29,
+    "fields": {
+      "category": 4,
+      "name": "Latte Macchiato",
+      "description": "This uniquely attractive coffee is an upside-down café latte with a little twist. Beautifully smooth with a hint of sweetness, our Latte Macchiato coffee pods turn into a stunning drink that will impress every time. With a bottom layer of biscuit-coloured milk graduating to a layer of darker coffee, the Latte Macchiato is, in Italian, literally ‘stained milk’. The espresso sits on top of the milk to create its recognisable layered effect, and is then topped with delicious frothy milk. The Latte Macchiato is then finished with an elegant dot of dark crema, its unmistakable signature. A lovely coffee for alone time, these Latte Macchiato coffee pod drinks are also brilliant for creating a ‘wow’ factor among friends. They are a great addition to a NESCAFÉ® Dolce Gusto® Latte coffee pod collection for something a little beyond the usual. To enjoy the truly beautiful effect that makes these latte capsule coffees so distinctive, we recommend serving in our specially designed latte glasses, which are just the right size and style for your Latte Macchiato. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® pod machines and allows you to prepare 8 cups of Latte Macchiato.",
+      "shortDescription": "Our Latte Macchiato coffee pods create a deliciously tall, hot and frothy coffee drink, finished off with a delicious dot of crema atop its froth.",
+      "color": "#E6951F",
+      "isLightColor": false,
+      "indicator": 5
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 30,
+    "fields": {
+      "category": 4,
+      "name": "Cappuccino Intenso",
+      "description": "NESCAFÉ® Dolce Gusto® Intenso Cappuccino is a full-bodied espresso, covered with a dense foam of whole milk to give you intense pleasure. Our coffee creators have selected a high temperature roasting method, revealing the deep brown of the coffee beans and releasing powerful aromas and character, to offer you an even more intense Cappuccino tasting.",
+      "shortDescription": "Discover the NESCAFÉ® Dolce Gusto® Intenso Cappuccino, the perfect blend of an intense and full-bodied espresso with the sweetness of whole milk froth.",
+      "color": "#176B6B",
+      "isLightColor": false,
+      "indicator": 5
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 31,
+    "fields": {
+      "category": 4,
+      "name": "Latte Macchiato",
+      "description": "Our Caramel Latte Macchiato is a latte with an extra shot of style. Our lovely espresso tumbles through the caramel-infused milk to create an irresistibly smooth, sweet coffee that wouldn’t be out of place in the hands of a barista. Topped with its signature snowy foam, the classic notes of caramel make this latte coffee pod drink ideal for the sweet-toothed coffee enthusiast. Stylish in appearance and topped with a pretty spot of crema, this latte is brilliant for enjoying at any time of day. Simple to make and with the quality of taste and texture you would expect from your NESCAFÉ® Dolce Gusto® machine, our Caramel Latte Macchiato will have you coming back for more, and we think your guests will love it too. Whether you enjoy them on a day-to-day basis or just like to shake things up sometimes, the combination of coffee, caramel and milk is delicious for coffee drinkers and caramel lovers alike. If you’re looking for something a little different from your regular Latte Macchiato, we think it’s definitely worth keeping some of these Caramel Latte Macchiato coffee pods to hand. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® pod machines and allows you to prepare 8 cups of Caramel Latte Macchiato.",
+      "shortDescription": "Our Caramel Latte Macchiato is a delightful frothy milk and intense espresso, infused with a moreish caramel flavour.",
+      "color": "#D96E26",
+      "isLightColor": false,
+      "type": "Caramel",
+      "indicator": 5
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 32,
+    "fields": {
+      "category": 4,
+      "name": "Latte Macchiato",
+      "description": "The soft taste of vanilla running through this latte is what makes this coffee truly special. Our full-bodied espresso sinks through the cup, infusing with the vanilla and creating that lovely layered effect. Topped with the smooth foam you love; this latte pod drink isn’t one to miss. A sophisticated, warming drink, our Vanilla Latte Macchiato coffee pods are brilliant for enjoying at any time of day. Whether savoured as a treat for yourself, or enjoyed with family and friends, this delicious drink not only tastes the part, but looks fantastic too. With lovely layers and the crowning ‘macchia’ (the dot of rich crema!), it’s simple to impress your friends with barista-style drinks straight out of your kitchen. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® pod machines and allows you to prepare 8 cups of Vanilla Latte Macchiato. So, if you fancy a Latte Macchiato with a little twist, the Vanilla Latte Macchiato might be just the thing. And if you love the subtle notes of vanilla in these delicious coffee pod drinks, we think that you might like our Caramel Latte Macchiato variety too!",
+      "shortDescription": "The Vanilla Latte Macchiato coffee pods combine frothy milk with a vanilla twist and a shot of full-bodied espresso.",
+      "type": "Vanilla",
+      "color": "#EDBC08",
+      "isLightColor": true,
+      "indicator": 5
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 33,
+    "fields": {
+      "category": 4,
+      "name": "Latte Macchiato",
+      "description": "If you fancy the stunning Latte Macchiato but don’t want to compromise when it comes to the ‘skinny’ taste, these Skinny Latte Macchiato coffee pods might be exactly what you’re looking for. With the same gorgeous coffee tones that you can find in the regular version, and with a tasty milkiness, this one has no added sugar*, is fat free, and contains only 50 calories a cup. Just like the regular Latte Macchiato, the skinny variety is a reversed café latte. The smooth espresso sinks from the top of the glass to the bottom but remains unstirred, creating the attractive layered effect that gives this coffee its true identity. Topped with milk foam, the Skinny Latte Macchiato has on its crest the signature spot of crema, its finishing touch. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® pod machines and allows you to prepare 8 cups of Skinny Latte Macchiato.",
+      "shortDescription": "The Skinny Latte Macchiato is low in fat, but still packed full of intense coffee flavour with lots of froth.",
+      "color": "#E6951F",
+      "isLightColor": false,
+      "type": "Skinny / Light",
+      "typeColor": "#BB569A",
+      "indicator": 5
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 34,
+    "fields": {
+      "category": 5,
+      "name": "Chococino",
+      "description": "Discover the indulgent-tasting NESCAFÉ® Dolce Gusto® Chococino. This isn’t just a regular hot chocolate, this is an intense chocolate taste with notes of vanilla, rounded off with a deliciously dense and chocolaty froth. The combination of high quality chocolate and whole milk and the unique creamy texture ensure every mug of NESCAFÉ® Dolce Gusto® Chococino is a real chocolatey treat. The box contains 16 capsules (8 chocolate capsules and 8 milk capsules) designed for NESCAFÉ® Dolce Gusto® capsule coffee machines for you to prepare 8 mugs of Chococino.",
+      "shortDescription": "When premium chocolate meets frothy whole milk. Discover the indulgent-tasting NESCAFÉ® Dolce Gusto® Chococino.",
+      "color": "#6E3A2F",
+      "isLightColor": false,
+      "indicator": 3
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 35,
+    "fields": {
+      "category": 5,
+      "name": "Chococino",
+      "description": "We’ve taken our dreamy Chococino to the next level for our hot chocolate enthusiasts, by adding another gorgeous layer of taste. Notes of caramel run through this twist on an old favourite, for a wonderful combination of yummy caramel and rich chocolate. In fact, we think this Chococino Caramel is so delicious, you might want to hide the box! Designed with relaxation in mind, these caramel chocolate pods drinks are great for a bit of time out or for enjoying with good friends. Intensely satisfying, its deep, rich colour is crowned with a light foam, making it look just as good as it tastes. Crafting your perfect Chococino Caramel at home is seriously easy, with your NESCAFÉ® Dolce Gusto® machine designed to bring you a coffee-shop quality finish, ensuring you’ll always impress with this delicious drink. For the best-looking results, serve your creation in a glass that shows off its chocolatey layers. If you’ve fallen in love with the laid-back style of our Chococino Caramel hot chocolate capsule drinks, we also recommend our Mocha for that uniquely satisfying coffee-chocolate combination.",
+      "shortDescription": "Our delicious hot chocolate with a caramel-flavour twist",
+      "type":"Caramel",
+      "color": "#8C3579",
+      "isLightColor": false,
+      "indicator": 3
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 36,
+    "fields": {
+      "category": 5,
+      "name": "Nesquik",
+      "description": "Enjoy the unique cocoa pleasure of the NESCAFÉ® Dolce Gusto® Nesquik® hot chocolate, with a generous, indulgent foam.",
+      "shortDescription": "Discover NESCAFÉ® Dolce Gusto® Nesquik® hot chocolate: The unique cocoa pleasure of Nesquik® with a generous indulgent foam.",
+      "color": "#EADE26",
+      "isLightColor": true,
+      "indicator": 5
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 37,
+    "fields": {
+      "category": 6,
+      "name": "Caramel Macchiato",
+      "description": "Discover the classic caramel STARBUCKS® by NESCAFÉ® Dolce Gusto® Caramel Macchiato Coffee Pods. Inspired by the STARBUCKS® Caramel Macchiato you love. Indulge in the creamy bliss of espresso, dairy and caramel flavour. The box contains 12 capsules of STARBUCKS® by NESCAFÉ® Dolce Gusto® Caramel Macchiato coffee pods, designed for NESCAFÉ® Dolce Gusto® coffee machines.",
+      "shortDescription": "Discover the classic caramel STARBUCKS® by NESCAFÉ® Dolce Gusto® Caramel Macchiato Coffee Pods.",
+      "color": "#C87B2B",
+      "isLightColor": false,
+      "indicator": 5
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 39,
+    "fields": {
+      "category": 6,
+      "name": "Cappuccino",
+      "description": "Discover the rich & creamy STARBUCKS® by NESCAFÉ® Dolce Gusto® Cappuccino pods. Inspired by the STARBUCKS® Cappuccino you love – these coffee pods balanced, indulgent and deliciously familiar. The box contains 12 capsules of STARBUCKS® by NESCAFÉ® Dolce Gusto® Cappuccino pods, designed for NESCAFÉ® Dolce Gusto® coffee machines.",
+      "shortDescription": "Discover the rich & creamy STARBUCKS® by NESCAFÉ® Dolce Gusto® Cappuccino pods.",
+      "color": "#A27D75",
+      "isLightColor": false,
+      "indicator": 5
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 40,
+    "fields": {
+      "category": 6,
+      "name": "Latte Macchiato",
+      "description": "Discover the smooth and creamy STARBUCKS® Latte Macchiato Coffee Pods. Inspired by the STARBUCKS® Latte Macchiato you love – velvety, rich and deliciously familiar. The box contains 12 capsules of STARBUCKS® by NESCAFÉ® Dolce Gusto® Latte Macchiato coffee pods, designed for NESCAFÉ® Dolce Gusto® coffee machines.",
+      "shortDescription": "Discover the smooth and creamy STARBUCKS® by NESCAFÉ® Dolce Gusto® Latte Macchiato Coffee Pods.",
+      "color": "#FBD7AA",
+      "isLightColor": true,
+      "indicator": 5
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 41,
+    "fields": {
+      "category": 6,
+      "name": "Blonde Espresso Roast",
+      "description": "Discover the smooth and sweet notes of STARBUCKS® by NESCAFÉ Dolce Gusto Blonde Espresso Roast Coffee Pods. With a soft and mellow flavour, this is our lightest espresso roast. Nearly five decades of sourcing, blending and roasting brought us here: a second espresso that’s boldly mellow. This special blend of beans from Latin America was carefully roasted to bring out sweet, vibrant notes. Soft and balanced, our STARBUCKS® by NESCAFÉ® Dolce Gusto® Espresso coffee pods pair well with milk, making classic espresso drinks extra smooth without a roasty edge. The box contains 12 capsules of STARBUCKS® by NESCAFÉ® Dolce Gusto® Blonde Espresso Roast Coffee pods, designed for NESCAFÉ® Dolce Gusto® coffee machines.",
+      "shortDescription": "Discover the smooth and sweet notes of STARBUCKS® by NESCAFÉ Dolce Gusto Blonde Espresso Roast Coffee Pods.",
+      "color": "#FFD91E",
+      "isLightColor": true,
+      "indicator": 1
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 42,
+    "fields": {
+      "category": 6,
+      "name": "Veranda Blend Grande",
+      "description": "Discover the mellow and cocoa notes of STARBUCKS® by NESCAFÉ Dolce Gusto Americano Veranda Blend Blonde Roast Coffee Pods. Indulge in the flavour of a lighter and mellower coffee with our STARBUCKS® Veranda Blend coffee pods. With hints of smooth cocoa and toasted nuts, these STARBUCKS® coffee pods are deliciously well-rounded with the signature STARBUCKS® flavour you love. Inspired by our Latin American coffee farmers and their families, this wonderfully balanced blend is made for those quieter moments in life when you just need to step back and relax. The box contains 12 capsules of STARBUCKS® by NESCAFÉ® Dolce Gusto® Americano Veranda Blend Roast Coffee pods, designed for NESCAFÉ® Dolce Gusto® coffee machines.",
+      "shortDescription": "Discover the mellow and cocoa notes of STARBUCKS® by NESCAFÉ Dolce Gusto Americano Veranda Blend Blonde Roast Coffee Pods.",
+      "color": "#E5C751",
+      "isLightColor": true,
+      "indicator": 7
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 43,
+    "fields": {
+      "category": 6,
+      "name": "Espresso Colombia",
+      "description": "Discover STARBUCKS® by NESCAFÉ® Dolce Gusto® Colombia Medium Roast Espresso Coffee Pods, balanced with nutty notes. This 100% Colombian coffee has a round body, juicy taste and signature nutty finish. Nutty and floral with extraordinary cup balance and tons of complexity. We’ve always loved coffee from Colombia. And we’re never reminded of that love more than when we’re travelling to the coffee farms. Driving treacherous dirt roads with a sheer mountain wall to one side – nothing but air for thousands of feet to the other. For us, the round body, juicy taste and signature nutty finish of this 100% Colombian coffee are worth the journey every time. The box contains 12 capsules of STARBUCKS® by NESCAFÉ® Dolce Gusto® Single-Origin Colombia Medium Roast Espresso coffee pods, designed for NESCAFÉ® Dolce Gusto® coffee machines.",
+      "shortDescription": "Discover STARBUCKS® by NESCAFÉ® Dolce Gusto® Colombia Medium Roast Espresso Coffee Pods, balanced with nutty notes.",
+      "color": "#D34723",
+      "isLightColor": false,
+      "indicator": 1
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 44,
+    "fields": {
+      "category": 6,
+      "name": "House Blend Grande",
+      "description": "Rich with toffee notes, discover STARBUCKS® by NESCAFÉ® Dolce Gusto® Americano House Blend Medium Roast Coffee Pods. A blend of fine Latin American beans roasted to a glistening, dark chestnut colour. Aroma, body and flavour all in balance with tastes of nuts and cocoa and just a touch of sweetness from the roast. This coffee marks STARBUCKS® beginning, the very first blend created for you back in 1971. The box contains 12 capsules of STARBUCKS® by NESCAFÉ® Dolce Gusto® Americano House Blend Medium Roast Coffee pods, designed for NESCAFÉ® Dolce Gusto® coffee machines.",
+      "shortDescription": "Rich with toffee notes, discover STARBUCKS® by NESCAFÉ® Dolce Gusto® Americano House Blend Medium Roast Coffee Pods.",
+      "color": "#835F45",
+      "isLightColor": false,
+      "indicator": 7
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 45,
+    "fields": {
+      "category": 6,
+      "name": "Espresso Roast",
+      "description": "Discover the rich & caramelly notes of STARBUCKS® by NESCAFÉ® Dolce Gusto® Espresso Dark Roast Coffee Pods. Enjoy this intense and caramelly sweet coffee, at the heart of our handcrafted latte. STARBUCKS® started hand-crafting every espresso beverage in 1975, searching for the perfect melding of beans and roast. Months of intense experimentation ended with this coffee. A recipe for caramelly sweetness – so right it’s never been changed. The box contains 12 capsules of STARBUCKS® by NESCAFÉ® Dolce Gusto® Espresso Dark Roast coffee pods, designed for NESCAFÉ® Dolce Gusto® coffee machines.",
+      "shortDescription": "Discover the rich & caramelly notes of STARBUCKS® by NESCAFÉ® Dolce Gusto® Espresso Dark Roast Coffee Pods.",
+      "color": "#51616D",
+      "isLightColor": false,
+      "indicator": 1
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 46,
+    "fields": {
+      "category": 7,
+      "name": "Marrakech Tea",
+      "description": "Our Marrakesh Style Tea pod drinks are a wonderful pick-me-up drink for any time of day. Our unique blend fuses green tea extract with a natural mint flavouring, for the taste of an exotic holiday at home. The result is an easy-going drink with the authentic sweetness and clarity you’d expect to find in Marrakesh itself. A great addition to any NESCAFÉ® Dolce Gusto® coffee pod collection, these capsules are made for tea enthusiasts and coffee drinkers alike. Lightly topped with our yummy NESCAFÉ® Dolce Gusto® froth, this striking tea is a wonderful choice to serve at any social gathering or to enjoy on your own, and is a wonderful palate cleanser after meals. Honey-coloured yet vividly clear, it also looks irresistible; try serving in one of our glass teacups for the ultimate ‘wow’ factor! Exclusively online, these tea capsules will bring an exotic and intensely enjoyable experience right to your own kitchen. And if you enjoy the taste of the Marrakesh Style Tea pods, our subtly spiced Chai Tea Latte might be just your thing as well.",
+      "shortDescription": "A blend of aromatic green tea, intensely flavourful and refreshing mint, topped with NESCAFÉ® Dolce Gusto’s famous mousse and sweetened to perfection.",
+      "color": "#08876A",
+      "isLightColor": false,
+      "indicator": 6
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 47,
+    "fields": {
+      "category": 7,
+      "name": "Citrus Honey Black Tea",
+      "description": "Discover this Nescafe Dolce Gusto Citrus Honey Black Tea : a tasty blend of black tea, citrus fruits and a drop of honey, bringing sunshine to your morning cup.  1 box of 16 capsules.",
+      "shortDescription": "Discover this Nescafe Dolce Gusto Citrus Honey Black Tea : a tasty blend of black tea, citrus fruits and a drop of honey, bringing sunshine to your morning cup.",
+      "color": "#9AB916",
+      "isLightColor": false,
+      "indicator": 6
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 48,
+    "fields": {
+      "category": 8,
+      "name": "Cappuccino Ice",
+      "description": "When you fancy a break from hot drinks, our seriously chilled Cappuccino Ice coffee pods capsules might be just the thing you’re looking for. Easy to prepare and unbelievably tasty, we think you’ll be hard pushed to find a more refreshing iced coffee. These iced Cappuccino Ice coffee pod drinks are great for those long, hot summer days when a hot drink won’t hit the right spot, but don’t limit yourself - they’re also intensely tasty at any other time of the year! Whether you’re looking for refreshment at the end of the day or sharing a drink with friends, our Cappuccino Ice coffee pod drinks are the ultimate companion to your NESCAFÉ® Dolce Gusto® Machine. With a balance of sweetness and combined with our delicious coffee blend, this online exclusive is sure to be a hit in your home whatever the occasion. Each box contains 16 coffee pods designed for NESCAFÉ® Dolce Gusto® pod machines and allows you to prepare 8 cups of Cappuccino Ice.",
+      "shortDescription": "Our Cappuccino Ice coffee pods are a delightful mix of a creamy tasting milk and a cold, rich espresso.",
+      "color": "#08AED6",
+      "isLightColor": false,
+      "indicator": 3
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 49,
+    "fields": {
+      "category": 5,
+      "name": "Mocha",
+      "description": "We’ve combined a classic hot chocolate taste with a hint of coffee to create your dream Mocha. The balance between lovely chocolate and coffee makes this the drink of choice for coffee and hot chocolate enthusiasts alike. As for us, we just can’t decide which we like more! Whether you’re chatting with friends or unwinding after work, a cup of this delightful chocolate-coffee combo is sure to soothe those cravings for something hot and satisfying without you having to leave your kitchen. With a light layer of dreamy foam and its deeply intense colour, it even looks the part. A great addition to any NESCAFÉ® Dolce Gusto® coffee pod collection, have some of these on hand for unexpected guests or when a normal hot chocolate or coffee isn’t quite what you’re after. If you like the rich taste of our Mocha coffee pod beverages, but sometimes fancy something less sweet, you might also enjoy exploring our extensive Cappuccino and Latte selection.",
+      "shortDescription": "Our Mocha coffee pods combines a delightful hot chocolate with a subtle hint of coffee.",
+      "color": "#5B2D8F",
+      "isLightColor": false,
+      "indicator": 3
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 50,
+    "fields": {
+      "category": 9,
+      "name": "Piccolo Krups",
+      "description": "Compact but full of ‘wow’ factor, the Piccolo® really performs above its weight when it comes to making great coffee. Its manual lever means you can choose the amount of water you desire, allowing you to make your drink just the way you like it. Even better, its maximum 15-bar pump pressure ensures a coffee shop quality result each time, creating the attractive crema on top of your coffee. Great drinks in a chic and stylish package? Yes please! Like all our pod coffee machines, the Piccolo® is easy to clean and easy to use – just choose one of our tasty coffee pods, pop it in, and away you go. Its quick heat-up time means it’s easy to create coffee without loads of fuss, and as the coffee grounds stay right in the pod there’s no mess to deal with afterwards. From Americanos to Espressos, Chococinos® to Marrakesh Style Tea, the Piccolo® coffee machine in black won’t disappoint when it comes to crafting your dream drink. If you want to take your experience to next level, why not try pairing with some of our stylish and functional accessories, such as our pod dispensers, for extra ease?",
+      "shortDescription": "Small but powerful, the Piccolo® machine is stylish and compact. The manual lever means you can choose the amount you desire, so you are in control! Supplied with UK plug.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 51,
+    "fields": {
+      "category": 9,
+      "name": "Piccolo De'Longhi",
+      "description": "The extra-small NESCAFÉ® Dolce Gusto® Piccolo XS by De’Longhi® Black coffee pod machine, with its tiny footprint and modern style, is expertly designed to fit in any kitchen. Piccolo XS is only 14cm wide x 28cm height x 27cm deep. Whilst mini in size, it’s maximum 15-bar pump pressure makes it powerful enough to create the perfect coffee shop style drink every time.",
+      "shortDescription": "The black NESCAFÉ® Dolce Gusto® Piccolo XS by De’Longhi® coffee pod machine is modern in design, but small in size, perfect for smaller kitchens and stylish apartments.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 52,
+    "fields": {
+      "category": 9,
+      "name": "Mini Me Krups",
+      "description": "Creating fantastic coffee is absolutely effortless with the Mini Me® Automatic. Boasting a compact design that packs in a maximum 15-bar pump pressure, as well as a Play and Select feature for extra ease of use, this brilliant little machine won’t fail to impress. Striking shades of white and grey add an extra layer of style to its unmistakable design. Just like all our other machines, the Mini Me® will take any NESCAFÉ® Dolce Gusto® coffee pod or capsule and turn it into a hot or chilled drink in moments. With a wide range to choose from, from classic coffees such as Lattes and Cappuccinos to spiced teas and hot chocolate, this automatic coffee machine is great for any occasion, at any time of the day. With many pods available in supermarkets and even more exclusively online, you’re sure to find something that suits you. Plus, if you love the two-tone design of this machine, we think the Mini Me® in red and white might also be your thing. Easy to use and clean, you won’t compromise on convenience. With a 2 year guarantee, there’s no reason to stick to instant every time. So choose the Mini Me® and get ready for a new world of taste – coffee will never be the same again!",
+      "shortDescription": "Style-up your kitchen counter with MINI ME. With its super-compact design, this automatic machine not only looks great, but with a maximum 15 bar pump pressure, also packs a flavour punch. Supplied with UK plug.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 53,
+    "fields": {
+      "category": 9,
+      "name": "Mini Me De'Longhi",
+      "description": "The Nescafé Dolce Gusto Mini Me pod coffee machine is stylish yet compact, but don’t let its size fool you. With a maximum 15 bar pump pressure it is able to create coffee with full-bodied flavour and a velvety cream finish. Designed to be just like you would find in your local coffee shop. The coffee pods are sealed after the roast has been ground to deliver to you a full flavour and aroma. With a wide variety of drinks to choose from including roast and ground coffees, hot chocolate drinks and coffee shop specialities. The volume selector on the Nescafé Dolce Gusto Mini Me machine lets you tailor the length of your drink to just the way you like it. Use the recommendation on the pod or select the amount of water to use to suit your taste. The coffee machine automatically stops at the selected level when done.",
+      "shortDescription": "The Nescafé Dolce Gusto Mini Me pod coffee machine is stylish yet compact, but don’t let its size fool you.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 54,
+    "fields": {
+      "category": 9,
+      "name": "Oblo Krups",
+      "description": "With the cool design of Oblo®, you can stay chic as well as effortlessly creating coffee with ‘wow’ factor. Seriously stylish and performing with outstanding quality, this coffee machine in white is bound to make your everyday coffee moments more special. Designed to be used every day from morning to evening, the Oblo® has a maximum 15-bar pump pressure which ensures you’ll enjoy the same results you love in your favourite coffee shop. We love its mechanical lever and scroll feature, which lets you craft your drink to your ideal volume, whether it’s a classic coffee, hot chocolate Chococino® or iced Nestea®. With such a wide range to choose from, both in supermarkets and from online exclusives, your new manual coffee machine is great for all occasions. There’s no mess or fuss involved when crafting your favourite drink, and its simple yet stylish design means you can easily enjoy a NESCAFÉ® Dolce Gusto® coffee pod instead of an instant. With a 2 year guarantee underlining its quality, you can be sure of loads of brilliant coffee moments to come. Also available in black, red or orange, there’s loads to choose from when it comes to showing off your personality. So take your coffee to the next level and make the everyday more memorable by exploring the delicious world of Oblo® today.",
+      "shortDescription": "The new NESCAFÉ® Dolce Gusto® Oblo white, with up to 15 bars pump pressure necessary to extract the finest aromas and create superb cremas from this stylish, unconventional machine. Supplied with UK plug.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 55,
+    "fields": {
+      "category": 9,
+      "name": "Jovia De'Longhi",
+      "description": "With its confident design, its classic black colour and its striking red cable, the Jovia® by DeLonghi® is a bold but beautiful addition to any kitchen. Boasting a mechanical lever which allows you to adjust the volume of your drink, as well as an easy-to-clean design, the Jovia® is a great companion for crafting everyday coffee moments. There’s no need to go to your local coffee shop for high quality drinks, as this coffee machine in black takes your favourite NESCAFÉ® Dolce Gusto® pods and turns them into something special every time. From classic coffees such as Cappuccinos and Espressos to iced drinks and a yummy hot chocolate Chococino®, this manual coffee machine is sure to impress with its maximum 15-bar pump pressure. Designed for everyday use, enjoy your drinks from breakfast to the end of the day, as well as giving extra ‘wow’ your coffee mornings with friends. With the Jovia® pod coffee machine in black it’s always time to craft your favourite drink, whatever the time or occasion. The Jovia® is also available in glossy white and cherry red, so you can find something that really fits your kitchen. For an extra shot of style, pair your machine with our specially designed cups and glasses, so you can show off your coffee creations at their very best. Coffee at home coffee will never be the same again!",
+      "shortDescription": "The Jovia manual is a stylishly designed coffee machine in black creates barista-quality drinks. Visit us and choose yours today.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 56,
+    "fields": {
+      "category": 9,
+      "name": "Drop Krups",
+      "description": "Beautiful automatic pod coffee machine (25cm W x 32cm H x 25cm D) inspired by a drop of coffee and compatible NESCAFÉ® Dolce Gusto® pods. High-pressure coffee machine (Max 15 bars) for professional quality coffees with a thick velvety crema. Over 40 coffee creations and other delicious hot and cold beverages prepared with one easy push of a button. Adjustable drink size with touch responsive technology. Eco-mode: automatic switch-off after 5 minutes. Energy consumption rating: A.",
+      "shortDescription": "Inspired by a drop of coffee, the beautiful NESCAFÉ® Dolce Gusto® Drop automatic pod coffee machine is a truly stylish piece for your kitchen.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 57,
+    "fields": {
+      "category": 9,
+      "name": "Genio 2 Krups",
+      "description": "Automatic, ultra-compact pod coffee machine (17cm W x 30cm H x 26cm D). High-pressure coffee machine (Max 15 bars) for professional quality coffees with a thick velvety crema. Over 40 coffee creations and other delicious hot and cold beverages prepared with one easy push of a button. Drink size adjustable with the Automatic function. Eco-mode: automatic switch-off after 5 minutes. Energy consumption rating: A.",
+      "shortDescription": "The automatic, ultra-compact NESCAFÉ® Dolce Gusto® Genio 2 pod coffee machine, is designed to perfectly suit your kitchen.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 58,
+    "fields": {
+      "category": 9,
+      "name": "Genio 2 De'Longhi",
+      "description": "Nescafé ® Dolce Gusto® Multi beverage system for hot and cold drinks •; Automatic pressure regulation thanks to intelligent capsule technology • Flow Stop technology,: You can thanks to the selector wheel Easy to create your own individual piece favorite beverage cook • Follow the recommended dosage on the an encapsulated or set the the dial to the desired a •, the machine automatically stops after preparation •; XL function for bottle up to a maximum of 300 ml •, Power saving mode • Case; Magnetic capsule holder Easy to put on and take off the capsules •; (W x H x D): 25.7 x 29.7 x 16.5 cm •; Weight: 2.7 kg •; Colour: silver. Power selection - 1600 watts. Max. Pump Pressure 15 bar. Cup Shelf Height Adjustable Stainless Steel Drip Tray (dishwasher-safe) For Different Cup and glass Height. Water tank entnehm bar, 1.0 l. Automatically turns off after 5 minutes. Heating System Aluminium Thermoblock: No Warm Up, No waiting time",
+      "shortDescription": "De'Longhi Nescafe Dolce Gusto Genio 2 Automatic Play and Select Coffee Machine - Piano Black",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 59,
+    "fields": {
+      "category": 9,
+      "name": "Eclipse De'Longhi",
+      "description": "NESCAFÉ® Dolce Gusto® Eclipse automatic pod coffee machine unlocks coffee creativity with its advanced features including a unique automatic opening mechanism. Create professional quality coffees with a velvety crema, thanks to the machine’s high-pressure system (maximum 15 bar pump pressure). Our hermetically sealed pods maintain coffee freshness, so you’ll enjoy rich aromatic cups every time. Push a button and Eclipse transforms from a stylish design piece into an outstanding coffee machine. Slide in a pod, select your beverage size with the touch of a finger, and go! Create your favourite beverage from over 30 coffee creations.",
+      "shortDescription": "NESCAFÉ® Dolce Gusto® Eclipse automatic pod coffee machine unlocks coffee creativity with its advanced features including a unique automatic opening mechanism.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 60,
+    "fields": {
+      "category": 9,
+      "name": "Lumio Krups",
+      "description": "Minimalist design meets maximum of possibilities in NESCAFÉ® Dolce Gusto® Lumio automatic pod coffee machine. With a stylish design, a compact size of 37cm (H) x 18cm (W) x 22cm (D), a 1L water tank, and an XL beverage function, Lumio may be a compact coffee machine, but it has lots to offer! With a maximum 15 bar pump pressure, Lumio makes coffee-shop quality drinks with no mess, no fuss. Simply pop in a pod, select the volume you desire (up to XL) by touching the volume selector, and go!",
+      "shortDescription": "Our Lumio pod coffee machine is an extremely compact coffee machine with a gorgeously minimalist design that lets you enjoy over 40 coffee creations and other delicious hot and cold beverages prepared with one easy push of a button.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 61,
+    "fields": {
+      "category": 9,
+      "name": "Colors De'Longhi",
+      "description": "NESCAFÉ® Dolce Gusto® Colors combines a unique design with a large choice of great tasting coffees in a very compact machine 37cm (H) x 18cm (W) x 21cm (D) with a 1L water tank and an XL beverage function. With a maximum 15 bar pump pressure, Colors makes coffee-shop quality drinks with no mess, no fuss. Simply pop in a pod, select the volume you desire (up to XL) by touching the volume selector, and go!",
+      "shortDescription": "Express your style with Colors pod coffee machine. Colors has a unique & compact design with 3 interchangeable coloured back panels included with each machine. Enjoy over 40 coffee creations and other delicious hot and cold beverages prepared with one easy push of a button.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 62,
+    "fields": {
+      "category": 9,
+      "name": "Infinissima De'Longhi",
+      "description": "The Infinissima® Black & Charcoal pod coffee machine by De'Longhi®, with its slim design and infinity symbol inspired shape, is our most surprising coffee maker yet. Enjoy creating and drinking infinite coffee possibilities with ease thanks to a removable 1.2L water tank and the unique rotating drip tray. The Infinimissa Black & Charcoal by De'Longhi® measures 15cm (W) x 37cm (H) x 28cm (D).",
+      "shortDescription": "Inspired by the infinity shape, the NESCAFÉ® Dolce Gusto® Infinissima® Black & Charcoal manual pod coffee machine by De'Longhi® is slim and uniquely designed, with a 1.2L water tank to create infinite coffee possibilities.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+  {
+    "model": "webstore.product",
+    "pk": 63,
+    "fields": {
+      "category": 9,
+      "name": "Infinissima Krups",
+      "description": "The Infinissima® Red and Black pod coffee machine by Krups®, with its slim design and infinity symbol inspired shape, is our most surprising coffee maker yet. Enjoy creating and drinking infinite coffee possibilities with ease thanks to a removable 1.2L water tank and the unique rotating drip tray. The Infinimissa Red and Black by Krups® measures 15cm (W) x 37cm (H) x 28cm (D).",
+      "shortDescription": "Inspired by the infinity shape, the NESCAFÉ® Dolce Gusto® Infinissima® Red and Black manual pod coffee machine by Krups® is slim and uniquely designed, with a 1.2L water tank to create infinite coffee possibilities.",
+      "color": "#797979",
+      "isLightColor": false
+    }
+  },
+
+  {
+    "model": "webstore.producttype",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 2,
+    "fields": {
+      "product": 1,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 3,
+    "fields": {
+      "product": 2,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 4,
+    "fields": {
+      "product": 2,
+      "number": 30,
+      "price": 8.19,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 5,
+    "fields": {
+      "product": 3,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 6,
+    "fields": {
+      "product": 3,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 7,
+    "fields": {
+      "product": 4,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 8,
+    "fields": {
+      "product": 4,
+      "number": 30,
+      "price": 8.19,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 9,
+    "fields": {
+      "product": 4,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 10,
+    "fields": {
+      "product": 4,
+      "number": 180,
+      "price": 44.25,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 11,
+    "fields": {
+      "product": 5,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 12,
+    "fields": {
+      "product": 5,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 13,
+    "fields": {
+      "product": 5,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 14,
+    "fields": {
+      "product": 6,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 15,
+    "fields": {
+      "product": 6,
+      "number": 30,
+      "price": 8.19,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 16,
+    "fields": {
+      "product": 6,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 17,
+    "fields": {
+      "product": 7,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 18,
+    "fields": {
+      "product": 7,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 19,
+    "fields": {
+      "product": 8,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 20,
+    "fields": {
+      "product": 8,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 21,
+    "fields": {
+      "product": 9,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 22,
+    "fields": {
+      "product": 9,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 23,
+    "fields": {
+      "product": 10,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 24,
+    "fields": {
+      "product": 11,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 25,
+    "fields": {
+      "product": 12,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 26,
+    "fields": {
+      "product": 13,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 27,
+    "fields": {
+      "product": 13,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 28,
+    "fields": {
+      "product": 14,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 29,
+    "fields": {
+      "product": 14,
+      "number": 30,
+      "price": 8.19,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 30,
+    "fields": {
+      "product": 14,
+      "number": 96,
+      "price": 24.79
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 31,
+    "fields": {
+      "product": 14,
+      "number": 180,
+      "price": 44.25,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 32,
+    "fields": {
+      "product": 15,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 33,
+    "fields": {
+      "product": 16,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 34,
+    "fields": {
+      "product": 16,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 35,
+    "fields": {
+      "product": 17,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 36,
+    "fields": {
+      "product": 17,
+      "number": 30,
+      "price": 8.19,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 37,
+    "fields": {
+      "product": 17,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 38,
+    "fields": {
+      "product": 17,
+      "number": 180,
+      "price": 44.25,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 39,
+    "fields": {
+      "product": 18,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 40,
+    "fields": {
+      "product": 19,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 41,
+    "fields": {
+      "product": 19,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 42,
+    "fields": {
+      "product": 20,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 43,
+    "fields": {
+      "product": 20,
+      "number": 30,
+      "price": 8.19,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 44,
+    "fields": {
+      "product": 20,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 45,
+    "fields": {
+      "product": 20,
+      "number": 180,
+      "price": 44.25,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 46,
+    "fields": {
+      "product": 21,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 47,
+    "fields": {
+      "product": 22,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 48,
+    "fields": {
+      "product": 22,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 49,
+    "fields": {
+      "product": 23,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 50,
+    "fields": {
+      "product": 23,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 51,
+    "fields": {
+      "product": 24,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 52,
+    "fields": {
+      "product": 24,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 53,
+    "fields": {
+      "product": 25,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 54,
+    "fields": {
+      "product": 25,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 55,
+    "fields": {
+      "product": 26,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 56,
+    "fields": {
+      "product": 26,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 57,
+    "fields": {
+      "product": 27,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 58,
+    "fields": {
+      "product": 27,
+      "number": 30,
+      "price": 8.19,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 59,
+    "fields": {
+      "product": 27,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 60,
+    "fields": {
+      "product": 27,
+      "number": 180,
+      "price": 44.25,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 61,
+    "fields": {
+      "product": 28,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 62,
+    "fields": {
+      "product": 29,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 63,
+    "fields": {
+      "product": 29,
+      "number": 30,
+      "price": 8.19,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 64,
+    "fields": {
+      "product": 29,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 65,
+    "fields": {
+      "product": 30,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 66,
+    "fields": {
+      "product": 30,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 67,
+    "fields": {
+      "product": 31,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 68,
+    "fields": {
+      "product": 31,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 69,
+    "fields": {
+      "product": 32,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 70,
+    "fields": {
+      "product": 32,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 71,
+    "fields": {
+      "product": 33,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 72,
+    "fields": {
+      "product": 34,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 73,
+    "fields": {
+      "product": 34,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 74,
+    "fields": {
+      "product": 35,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 75,
+    "fields": {
+      "product": 35,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 76,
+    "fields": {
+      "product": 36,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 77,
+    "fields": {
+      "product": 36,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 78,
+    "fields": {
+      "product": 37,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 79,
+    "fields": {
+      "product": 37,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 80,
+    "fields": {
+      "product": 39,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 81,
+    "fields": {
+      "product": 39,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 82,
+    "fields": {
+      "product": 40,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 83,
+    "fields": {
+      "product": 40,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 84,
+    "fields": {
+      "product": 41,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 85,
+    "fields": {
+      "product": 41,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 86,
+    "fields": {
+      "product": 42,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 87,
+    "fields": {
+      "product": 42,
+      "number": 72,
+      "price": 20.47
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 88,
+    "fields": {
+      "product": 43,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 89,
+    "fields": {
+      "product": 43,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 90,
+    "fields": {
+      "product": 44,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 91,
+    "fields": {
+      "product": 44,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 92,
+    "fields": {
+      "product": 45,
+      "number": 12,
+      "price": 3.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 93,
+    "fields": {
+      "product": 45,
+      "number": 72,
+      "price": 20.47,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 94,
+    "fields": {
+      "product": 46,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 95,
+    "fields": {
+      "product": 46,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 96,
+    "fields": {
+      "product": 47,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 97,
+    "fields": {
+      "product": 48,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 98,
+    "fields": {
+      "product": 48,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 99,
+    "fields": {
+      "product": 49,
+      "number": 16,
+      "price": 4.59,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 100,
+    "fields": {
+      "product": 49,
+      "number": 96,
+      "price": 24.79,
+      "color": null
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 101,
+    "fields": {
+      "product": 50,
+      "price": 47.91,
+      "color": "#515151",
+      "name": "Black"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 102,
+    "fields": {
+      "product": 50,
+      "price": 66.98,
+      "color": "#F1F1F1",
+      "name": "White"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 103,
+    "fields": {
+      "product": 50,
+      "price": 68.99,
+      "color": "#D51E1A",
+      "name": "Red"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 104,
+    "fields": {
+      "product": 51,
+      "price": 49.07,
+      "color": "#CECECE",
+      "name": "Silver"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 105,
+    "fields": {
+      "product": 52,
+      "price": 91.80,
+      "color": "#EFEFEF",
+      "name": "White"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 106,
+    "fields": {
+      "product": 52,
+      "price": 99.99,
+      "color": "#666666",
+      "name": "Black"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 107,
+    "fields": {
+      "product": 53,
+      "price": 109.99,
+      "color": "#C1C1C1",
+      "name": "Black"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 108,
+    "fields": {
+      "product": 54,
+      "price": 46.99,
+      "color": "#242623",
+      "name": "Black"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 109,
+    "fields": {
+      "product": 54,
+      "price": 52.89,
+      "color": "#F4F4F4",
+      "name": "White"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 110,
+    "fields": {
+      "product": 54,
+      "price": 48.50,
+      "color": "#9F0C26",
+      "name": "Red"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 111,
+    "fields": {
+      "product": 55,
+      "price": 29.99,
+      "color": "#080808",
+      "name": "Black"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 112,
+    "fields": {
+      "product": 55,
+      "price": 34.99,
+      "color": "#E3E3E3",
+      "name": "White"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 113,
+    "fields": {
+      "product": 55,
+      "price": 29.99,
+      "color": "#811620",
+      "name": "Red"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 114,
+    "fields": {
+      "product": 56,
+      "price": 139,
+      "color": "#929196",
+      "name": "Black"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 115,
+    "fields": {
+      "product": 56,
+      "price": 159.99,
+      "color": "#CE0321",
+      "name": "Red"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 116,
+    "fields": {
+      "product": 57,
+      "price": 119.99,
+      "color": "#4E4E4E",
+      "name": "Silver"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 117,
+    "fields": {
+      "product": 58,
+      "price": 100.99,
+      "color": "#868686",
+      "name": "Silver"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 118,
+    "fields": {
+      "product": 59,
+      "price": 139.99,
+      "color": "#CAD2D4",
+      "name": "Silver"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 119,
+    "fields": {
+      "product": 60,
+      "price": 49.99,
+      "color": "#252525",
+      "name": "Black"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 120,
+    "fields": {
+      "product": 60,
+      "price": 49.99,
+      "color": "#BB1F2D",
+      "name": "Red"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 121,
+    "fields": {
+      "product": 60,
+      "price": 49.99,
+      "color": "#F7F7F7",
+      "name": "White"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 122,
+    "fields": {
+      "product": 61,
+      "price": 89.99,
+      "color": "#D6D6D6",
+      "name": "White"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 123,
+    "fields": {
+      "product": 62,
+      "price": 99.99,
+      "color": "#766C6A",
+      "name": "Black"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 124,
+    "fields": {
+      "product": 62,
+      "price": 99.99,
+      "color": "#1E1E1E",
+      "name": "Black"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 125,
+    "fields": {
+      "product": 62,
+      "price": 99.99,
+      "color": "#E9E9E9",
+      "name": "White"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 126,
+    "fields": {
+      "product": 63,
+      "price": 99.99,
+      "color": "#BC0519",
+      "name": "Red"
+    }
+  },
+  {
+    "model": "webstore.producttype",
+    "pk": 127,
+    "fields": {
+      "product": 63,
+      "price": 99.99,
+      "color": "#DEDEDE",
+      "name": "Silver"
+    }
+  }
+]

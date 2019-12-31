@@ -1,0 +1,70 @@
+
+.Pod {
+  position: relative;
+  height: 12rem;
+  width: 12rem;
+  background-color: var(--main);
+  border-radius: 7.5rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+
+  svg {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .Pod-name {
+    margin: 0 0 .2rem 0;
+    max-width: 70%;
+    font-size: 75%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  .Pod-indicator {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 4rem;
+    top: calc(50% - 1.7rem);
+    left: 1.5rem;
+    width: 1.2rem;
+    list-style-type: none;
+
+    li {
+      width: calc(100% - 2px);
+      height: 2px;
+      margin: 3px auto;
+      border-radius: 2px;
+      border: 1px solid #FFFFFF;
+
+      &[data-fill="true"] {
+        background-color: #FFFFFF;
+      }
+
+      @for $i from 0 through 7 {
+        &[data-indicate="#{$i}"] {
+          width: calc(100% - #{(2 * $i)}px - 2px);
+        }
+      }
+    }
+  }
+
+  .Pod-type {
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 70%;
+    font-weight: bold;
+    border-radius: .5rem;
+    height: .9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main);
+    background-color: #FFFFFF;
+  }
+}

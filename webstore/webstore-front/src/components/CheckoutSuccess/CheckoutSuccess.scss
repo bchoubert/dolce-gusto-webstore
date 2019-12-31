@@ -1,0 +1,13 @@
+
+.CheckoutSuccess {
+  padding-top: 4rem;
+  height: calc(100vh - 4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-actions {
+    margin: 1rem auto;
+  }
+}

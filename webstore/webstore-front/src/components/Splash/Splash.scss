@@ -1,0 +1,124 @@
+@keyframes stroke-anim {
+  0% {stroke-dasharray: 1 50; fill: transparent}
+  90% {stroke-dasharray: 60 0; fill: transparent}
+  95% {stroke-dasharray: 30000 0; fill: transparent}
+  100% {stroke-dasharray: 60 0; fill: transparent}
+}
+
+.Splash {
+  padding-top: 4rem;
+  height: calc(100vh - 4rem);
+  overflow: auto;
+  background-color: var(--main);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  .bean {
+    background-color: var(--orange);
+    border-radius: 8px;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1rem;
+    color: var(--text-color);
+    align-items: center;
+    box-shadow: var(--shadow);
+    text-align: left;
+    font-size: 150%;
+
+    h2 {
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    img {
+      position: relative;
+      top: -5rem;
+      right: -5rem;
+    }
+  }
+
+  .powder {
+    display: flex;
+    box-shadow: var(--shadow);
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    align-items: center;
+    margin: 4rem auto;
+    width: 80%;
+    padding: 1rem;
+    position: relative;
+
+    .line {
+      height: 100%;
+      width: 1px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      display: block;
+      background-color: #DDDDDD;
+    }
+
+    .explanation {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+
+      span {
+        flex: 1;
+
+        h2 {
+          color: var(--orange);
+          text-transform: uppercase;
+        }
+
+        &:first-child {
+          text-align: left;
+        }
+
+        &:last-child {
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  .fetch-button {
+    margin: 5vh auto;
+    display: flex;
+  }
+
+  #svg {
+    fill: transparent;
+    stroke: #FFFFFF;
+    margin: 15vh 0;
+    max-width: 100%;
+
+    fill-rule:evenodd;
+
+    path {
+      stroke-width: 2px;
+      stroke-dasharray: 5 -1;
+      animation: stroke-anim 2s linear;
+      fill: transparent;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Splash {
+    .powder, .bean {
+      width: 95%;
+      flex-direction: column;
+      overflow: hidden;
+
+      img {
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+}

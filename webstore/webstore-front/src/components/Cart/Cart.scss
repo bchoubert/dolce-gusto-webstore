@@ -1,0 +1,70 @@
+
+.Cart {
+  padding-top: 4rem;
+
+  .table-container {
+    margin: 1rem;
+    width: calc(100% - 2rem);
+
+    .delete-cell {
+      width: 1rem;
+      padding-top: 0;
+      padding-bottom: 0;
+
+      .delete-icon {
+        color: #DD3333;
+      }
+    }
+
+    .quantity-cell {
+      padding-top: 0;
+      padding-bottom: 0;
+
+      &-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      .MuiIconButton-root {
+        display: inline-block;
+      }
+    }
+
+    button {
+      display: flex;
+      margin: 0 auto;
+    }
+
+    .Product-type {
+      padding: 0 .3rem;
+      margin: 0 .5rem;
+      border-radius: 1rem;
+      border-style: solid;
+      border-width: 1px;
+    }
+  }
+
+  &-actions {
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Cart {
+    .table-container {
+      margin: .2rem;
+      width: calc(100% - .4rem);
+
+      .MuiTableCell-root {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .quantity-cell-inner {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}

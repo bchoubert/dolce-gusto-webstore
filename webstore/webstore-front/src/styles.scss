@@ -1,0 +1,56 @@
+:root {
+  --main: #663700;
+
+  --text-color: #FFFFFF;
+  --text-color-dark: #222222;
+
+  --orange: #D2401E;
+
+  --shadow: 0 5px 10px 1px rgba(0, 0, 0, .1);
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  color: var(--text-color-dark);
+  text-align: center;
+  scroll-behavior: smooth;
+  font-family: Roboto, sans-serif;
+}
+
+.icon {
+  display: inline-block;
+  width: 1.25em;
+
+  &:before {
+    display: block;
+    width: 1em;
+    height: 1em;
+  }
+}
+
+.Product-type-color {
+  height: .7rem;
+  width: .7rem;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  margin: 0 .2rem;
+}
+
+a {
+  &, &:hover, &:focus, &:active, &:link, &:visited {
+    text-decoration: none;
+    color: var(--main);
+  }
+}
+
+a.white {
+  color: var(--text-color);
+}
