@@ -1,10 +1,10 @@
 @font-face {
-	font-family: "ingredient-font";
-	src: url("ingredient-font.eot?#iefix") format("embedded-opentype"),
-url("ingredient-font.woff") format("woff"),
-url("ingredient-font.woff2") format("woff2"),
-url("ingredient-font.ttf") format("truetype"),
-url("ingredient-font.svg#ingredient-font") format("svg");
+	font-family: "coffee-font";
+	src: url("coffee-font.eot?#iefix") format("embedded-opentype"),
+url("coffee-font.woff") format("woff"),
+url("coffee-font.woff2") format("woff2"),
+url("coffee-font.ttf") format("truetype"),
+url("coffee-font.svg#coffee-font") format("svg");
 }
 
 .icon {
@@ -12,7 +12,7 @@ url("ingredient-font.svg#ingredient-font") format("svg");
 }
 
 .icon:before {
-	font-family: ingredient-font !important;
+	font-family: coffee-font !important;
 	font-style: normal;
 	font-weight: normal !important;
 	vertical-align: top;
